@@ -1,0 +1,1 @@
+var streamApp = angular.module('streamApp', ['ui.router']);

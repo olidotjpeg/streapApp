@@ -1,0 +1,9 @@
+.fluid-row {
+	@include grid-row;
+	max-width: 100%;
+}
+
+.columns.collapsed {
+	padding-left: 0;
+	padding-right: 0;
+}

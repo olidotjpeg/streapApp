@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html ng-app="streamApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Streaming</title>
+	<!-- <link rel="stylesheet" href="bower_components/foundation/css/foundation.css"> -->
+	<link rel="stylesheet" href="app/css/main.css">
+</head>
+<body>
+	
+	<div class="fluid-row">
+
+		<!-- This is the side nav -->
+		<div class="small-2 columns collapsed">
+			<header class="search-header">
+				<input type="search" placeholder="Search here">
+			</header>
+			<nav class="navigation left-nav">
+				<ul class="main-navigation">
+					<h3>Main</h3>
+					<li>
+						<a>
+							Playing
+						</a>
+					</li>
+					<li>
+						<a>
+							Discover
+						</a>
+					</li>
+					<li>
+						<a>
+							Activity
+						</a>
+					</li>
+					<li>
+						<a>
+							Top Charts
+						</a>
+					</li>
+					<li>
+						<a>
+							New Releases
+						</a>
+					</li>
+				</ul>
+				<ul class="user-nav">
+					<li>
+						<a>User Name</a>
+						<a> <!-- Have to be settings -->
+							<i>A</i> <!-- Have to be settings -->
+						</a> <!-- Have to be settings -->
+					</li>
+					<li>
+						<a>Movie List 1</a>
+					</li>
+					<li>
+						<a>My Favourites</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!-- This is the main view -->
+		<div ui-view class="small-10 columns collapsed">
+		</div>
+	</div>	
+
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="app/config.js"></script>
+	<script src="app/router.js"></script>
+</body>
+</html>

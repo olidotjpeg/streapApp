@@ -1,0 +1,14 @@
+.navigation {
+	// Resets for all nav ULs
+	ul {
+		margin: 0;
+		padding: 0;
+		li, h3 {
+			list-style-type: none;
+			padding-left: 25px;
+			
+			&:hover {
+			}
+		}
+	}
+}
